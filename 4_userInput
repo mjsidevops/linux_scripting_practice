@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#Command to get user input
+
+echo "====================================="
+echo "Please enter your skill"
+read skill
+echo
+echo "Your $skill is in high demand"

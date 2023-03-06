@@ -1,0 +1,13 @@
+#!/bin/bash
+
+read -p 'Enter a Number:' num
+echo 
+
+if [ $num -gt 100 ]
+then
+  echo "We have entered in IF block"
+  sleep 3
+  echo "$num is great than 100"
+else
+  echo "Number is less tha 100"
+fi
