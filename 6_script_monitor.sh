@@ -1,6 +1,8 @@
 #!/bin/bash
 
-ls /var/run/httpd/httpd.pid
+echo "============================================"
+date
+ls /var/run/httpd/httpd.pid &> /dev/null
 if [ $? -eq 0 ]
 then 
    echo "Httpd is running"
@@ -15,3 +17,5 @@ else
      echo "Process start failed"
    fi
 fi
+echo "============================================"
+echo
